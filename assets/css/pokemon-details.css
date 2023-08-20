@@ -1,0 +1,143 @@
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-color: aqua; */
+}
+
+.pokemon .name {
+    font-weight: 600;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
+.type ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+img {
+    max-width: 200px;
+}
+
+.more-detail {
+    font-size: .8em;
+    line-height: 1em;
+}
+
+.more-detail span {
+    font-weight: 500;
+}
+
+.normal {
+    background-color: #a6a877;
+    color: #fff;
+    padding: .4em;
+    border-radius: .5em;
+    font-size: .8em;
+}
+.grass {
+    background-color: #77c850;
+    color: #fff;
+    padding: .4em;
+    border-radius: .5em;
+    font-size: .8em;
+}
+.fire {
+    background-color: #ee7f30;
+    color: #fff;
+    padding: .4em;
+    border-radius: .5em;
+    font-size: .8em;
+}
+.water {
+    background-color: #678fee;
+    color: #fff;
+    padding: .4em;
+    border-radius: .5em;
+    font-size: .8em;
+}
+.electric {
+    background-color: #f7cf2e;
+    color: #fff;
+    padding: .4em;
+    border-radius: .5em;
+    font-size: .8em;
+}
+.ice {
+    background-color: #98d5d7;
+    color: #fff;
+    padding: .4em;
+    border-radius: .5em;
+    font-size: .8em;
+}
+.ground {
+    background-color: #dfbf69;
+    color: #fff;
+    padding: .4em;
+    border-radius: .5em;
+    font-size: .8em;
+}
+.flying {
+    background-color: #a98ff0;
+    color: #fff;
+    padding: .4em;
+    border-radius: .5em;
+    font-size: .8em;
+}
+.poison {
+    background-color: #a040a0;
+    color: #fff;
+    padding: .4em;
+    border-radius: .5em;
+    font-size: .8em;
+}
+.fighting {
+    background-color: #bf3029;
+    color: #fff;
+    padding: .4em;
+    border-radius: .5em;
+    font-size: .8em;
+}
+.psychic {
+    background-color: #f65687;
+    color: #fff;
+    padding: .4em;
+    border-radius: .5em;
+    font-size: .8em;
+}
+.dark {
+    background-color: #725847;
+    color: #fff;
+    padding: .4em;
+    border-radius: .5em;
+    font-size: .8em;
+}
+.bug {
+    background-color: #a8b720;
+    color: #fff;
+    padding: .4em;
+    border-radius: .5em;
+    font-size: .8em;
+}
+.ghost {
+    background-color: #6e5896;
+}
+.steel {
+    background-color: #b9b7cf;
+}
+.dragon {
+    background-color: #6f38f6;
+}
+.fairy {
+    background-color: #f9aec7;
+}
+.rock {
+    background-color: #B8A038;
+}
